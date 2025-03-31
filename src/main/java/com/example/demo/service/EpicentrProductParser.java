@@ -49,7 +49,6 @@ public class EpicentrProductParser extends AbstractInfoBuilder implements IItemP
 		try {
 			return Jsoup.connect(baseUrl+item.select("h2 a").attr("href")).get();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
