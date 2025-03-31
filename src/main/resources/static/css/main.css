@@ -1,0 +1,47 @@
+.container{
+    height: auto;
+    margin-top: 100px;
+}
+
+table{
+    width: 100%;
+}
+
+thead{
+    border-bottom: 1px solid black;
+}
+
+table th, table td{
+    width: 20%;
+}
+
+table th:first-child, table td:first-child{
+    width: 10% !important;
+}
+
+table tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.151);
+}
+
+input{
+    width: 250px !important;
+    margin-left: 10px;
+}
+
+tr button{
+    padding-left: 0px !important;
+}
+
+.col-8.d-flex button{
+    height: 40px;
+    margin-left: 10px;
+}
+
+table th:nth-child(4), table td:nth-child(4){
+	width: 45%;
+}
+
+table th:nth-child(3), table td:nth-child(3){
+	width: 10%;
+}
+
