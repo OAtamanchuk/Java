@@ -47,7 +47,7 @@ public class Product {
         return link;
     }
 
-    public void setAuthor(String link) {
+    public void setLink(String link) {
         this.link = link;
     }
 
